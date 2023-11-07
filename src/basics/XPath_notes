@@ -1,0 +1,83 @@
+1) Xpath : is a one of the locator
+
+   1) Relative xpath
+   
+   		1) Single attribute xpath
+   		
+   		2) Multiple attribute xpath
+   		
+   		3) Text function
+   		
+   		4) Contains function
+   		
+   		5) Starts-with function
+   		
+   		1) Single attribute xpath
+   		============================
+   		
+   		//tagname[@attribute='value']
+   		
+   		//input[@id='email']
+   		
+   		//input[@name='email']
+   		
+   		//input[@class='inputtext _55r1 _6luy']
+   		
+   		//input[@data-testid='royal_email']
+   		
+   		//input[@placeholder='Email address or phone number']
+   		
+   		2) Multiple attribute:
+   		======================
+   		
+   		//tagname[@attribute='value'][@attribute='value']
+   		
+   		//input[@class='_8esa'][@value='2']
+   		
+   		//input[@class='_8esa' and @value='2']
+   		
+   		3) text() function:
+   		===================
+   		
+   		//tagname[tex()='value']
+   		
+   		//div[text()='Sign Up']
+   		
+   		4) contains() --> (text() or attribute)
+   		=======================================
+   		
+   		text():
+   		
+   		//tagname[contains(text(),'partial-value')]
+   		
+   		//h2[contains(text(),'connect')]
+   		
+   		
+   		attribute:
+   		==========
+   		
+   		//tagname[contains(@attribute, 'partial-value')]
+   		
+   		//a[contains(@id,'u_0_0')]
+   		
+   		
+   		5) Starts-with(text() or attribute)
+   		===================================
+   		
+   		text()
+   		
+   		//tagname[starts-with(text(), 'starting-value')]
+   		
+   		//h2[starts-with(text(),'Fa')]
+   		
+   		attribute:
+   		==========
+   		
+   		//tagname[starts-with(attribute,'starting-value')]
+   		
+   		//a[starts-with(@id,'u_0')]
+   		
+   		
+   		
+   
+   2) Absolute xpath

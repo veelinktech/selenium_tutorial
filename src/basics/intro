@@ -1,0 +1,9 @@
+chrome --> "webdriver.chrome.driver"
+
+firefox --> "webdriver.gecko.driver"
+
+iedriver --> "webdirver.ie.dirver"
+
+opera  --> "webdriver.opera.driver"
+
+edge --> "webdriver.edge.driver"
